@@ -87,8 +87,6 @@ RunService.RenderStepped:Connect(function(dt)
                 track:Stop()
                 continue
             end
-
-            print(v.." "..i)
         end
 
     else
